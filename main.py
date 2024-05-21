@@ -12,7 +12,7 @@ def create_curl():
     data = {
         "service_id": service_id,
         "document_id": document_id,
-        "author": "Буш",
+        "author": "author",
         "paraphrase": paraphrase 
     }
     r = requests.post('https://127.0.0.1:4000', data=data, headers=headers)
